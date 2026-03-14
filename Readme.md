@@ -20,6 +20,7 @@ Each agent implementation lives in its own folder with a dedicated README explai
 * agents using tools
 * agents using multiple tools
 * multi-agent systems with supervisor coordination
+* retrieval-augmented generation (RAG) pipelines using LangGraph
 
 ---
 
