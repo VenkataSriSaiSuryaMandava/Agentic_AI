@@ -6,30 +6,92 @@ Each agent implementation lives in its own folder with a dedicated README explai
 
 ---
 
-## Projects
+# Projects
 
-**Goal Based Agent** – An interactive agent that gathers required information from the user and works step-by-step toward completing a defined objective.
+## Goal Based Agent
 
-**Reflex Agent** – A simple rule-based agent that immediately responds to inputs using predefined conditions without reasoning or planning.
+An interactive agent that gathers required information from the user and works step-by-step toward completing a defined objective.
 
-**Learning Agent** – A reinforcement learning experiment where an agent learns to play a small Snake game using **Q-learning**, improving its behavior through rewards and penalties.
+## Reflex Agent
 
-**LangGraph Agents** – Examples of building LLM-powered agents using **LangGraph**, including:
+A simple rule-based agent that immediately responds to inputs using predefined conditions without reasoning or planning.
+
+## Learning Agent
+
+A reinforcement learning experiment where an agent learns to play a small Snake game using **Q-learning**, improving its behavior through rewards and penalties.
+
+## LangGraph Agents
+
+Examples of building LLM-powered agents using **LangGraph**, including:
 
 * single agent workflows
 * agents using tools
 * agents using multiple tools
 * multi-agent systems with supervisor coordination
-* retrieval-augmented generation (RAG) pipelines using LangGraph
+* retrieval-augmented generation (RAG) pipelines
 
 ---
 
-## Technologies
+# CrewAI Projects
+
+This repository also contains **CrewAI based multi-agent systems** for real-world automation tasks.
+
+## News Summarization
+
+A multi-agent workflow that researches recent **AI industry news** and generates a summarized report or blog-style output.
+
+Location:
+
+```
+CrewAI/News_Summarization/new_summarization.ipynb
+```
+
+---
+
+## AI Trip Planner
+
+A multi-agent travel planning system that generates personalized travel itineraries based on user preferences.
+
+The system uses three specialized agents:
+
+* **Location Expert** – researches logistics such as transport, weather, and accommodation
+* **Guide Expert** – recommends attractions, food, and experiences
+* **Planner Expert** – combines the information into a complete travel itinerary
+
+It can run in two ways:
+
+**Notebook**
+
+```
+CrewAI/Trip_Planner/trip_planner.ipynb
+```
+
+**Streamlit App**
+
+```
+streamlit run CrewAI/Trip_Planner/streamlit_trip_advisor_app/my_app_2.py
+```
+
+---
+
+# Technologies
 
 * Python
 * NumPy
 * Pygame
 * LangChain
 * LangGraph
+* CrewAI
 * Streamlit
-* LLM APIs
+* Ollama / LLM APIs
+
+---
+
+# Purpose
+
+These projects demonstrate how **AI agents and multi-agent systems** can automate complex workflows such as:
+
+* research
+* summarization
+* itinerary planning
+* information synthesis
