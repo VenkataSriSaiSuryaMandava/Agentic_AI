@@ -32,6 +32,16 @@ Examples of building LLM-powered agents using **LangGraph**, including:
 
 ---
 
+# Agno Agents
+
+This repository also includes examples of building AI agents using the **Agno framework**.
+These projects demonstrate simple agent creation, tool usage, and memory-enabled workflows powered by OpenAI models.
+
+* **Simple Multimodal Agent** – a minimal Agno agent that loads an API key and answers user queries.
+* **Agents with Tools and Memory** – demonstrates agents capable of using external tools and maintaining context.
+
+---
+
 # CrewAI Projects
 
 This repository also contains **CrewAI based multi-agent systems** for real-world automation tasks.
@@ -82,6 +92,7 @@ streamlit run CrewAI/Trip_Planner/streamlit_trip_advisor_app/my_app_2.py
 * LangChain
 * LangGraph
 * CrewAI
+* Agno
 * Streamlit
 * Ollama / LLM APIs
 
