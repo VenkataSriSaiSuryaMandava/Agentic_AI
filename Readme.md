@@ -30,7 +30,19 @@ Examples of building LLM-powered agents using **LangGraph**, including:
 * multi-agent systems with supervisor coordination
 * retrieval-augmented generation (RAG) pipelines
 
----
+
+## Agentic RAG System
+
+An advanced **Retrieval-Augmented Generation (RAG)** system with agent-based decision making.
+
+This implementation combines:
+
+* **LLM reasoning + dynamic retrieval**
+* **PostgreSQL + pgvector for vector search**
+* **external knowledge sources (e.g., Arxiv)**
+
+The agent decides when to retrieve information, fetches relevant context, and generates grounded responses — demonstrating a more **reliable and scalable alternative to standalone LLMs**.
+
 
 # Agno Agents
 
@@ -40,7 +52,6 @@ These projects demonstrate simple agent creation, tool usage, and memory-enabled
 * **Simple Multimodal Agent** – a minimal Agno agent that loads an API key and answers user queries.
 * **Agents with Tools and Memory** – demonstrates agents capable of using external tools and maintaining context.
 
----
 
 # CrewAI Projects
 
@@ -56,7 +67,6 @@ Location:
 CrewAI/News_Summarization/new_summarization.ipynb
 ```
 
----
 
 ## AI Trip Planner
 
