@@ -20,6 +20,8 @@ A simple rule-based agent that immediately responds to inputs using predefined c
 
 A reinforcement learning experiment where an agent learns to play a small Snake game using **Q-learning**, improving its behavior through rewards and penalties.
 
+---
+
 ## LangGraph Agents
 
 Examples of building LLM-powered agents using **LangGraph**, including:
@@ -30,6 +32,19 @@ Examples of building LLM-powered agents using **LangGraph**, including:
 * multi-agent systems with supervisor coordination
 * retrieval-augmented generation (RAG) pipelines
 
+---
+
+## Custom MCP Server (LangGraph)
+
+A custom **MCP (Model Context Protocol) server** exposing math tools (add, multiply, divide, etc.) and integrated with a LangGraph agent.
+
+Demonstrates:
+
+* Building your own MCP tool server
+* Connecting MCP tools to an LLM via LangGraph
+* Tool calling through both CLI and Streamlit UI
+
+---
 
 ## Agentic RAG System
 
@@ -43,15 +58,17 @@ This implementation combines:
 
 The agent decides when to retrieve information, fetches relevant context, and generates grounded responses — demonstrating a more **reliable and scalable alternative to standalone LLMs**.
 
+---
 
 # Agno Agents
 
 This repository also includes examples of building AI agents using the **Agno framework**.
 These projects demonstrate simple agent creation, tool usage, and memory-enabled workflows powered by OpenAI models.
 
-* **Simple Multimodal Agent** – a minimal Agno agent that loads an API key and answers user queries.
-* **Agents with Tools and Memory** – demonstrates agents capable of using external tools and maintaining context.
+* **Simple Multimodal Agent** – a minimal Agno agent that loads an API key and answers user queries
+* **Agents with Tools and Memory** – demonstrates agents capable of using external tools and maintaining context
 
+---
 
 # CrewAI Projects
 
@@ -67,6 +84,7 @@ Location:
 CrewAI/News_Summarization/new_summarization.ipynb
 ```
 
+---
 
 ## AI Trip Planner
 
@@ -92,7 +110,9 @@ CrewAI/Trip_Planner/trip_planner.ipynb
 streamlit run CrewAI/Trip_Planner/streamlit_trip_advisor_app/my_app_2.py
 ```
 
-# Multi MCP Servers
+---
+
+## Multi MCP Servers
 
 A LangGraph-based agent that connects to multiple **MCP servers** (Weather + Calculator) and dynamically selects tools based on user queries.
 
