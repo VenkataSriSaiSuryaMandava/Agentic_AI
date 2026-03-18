@@ -92,6 +92,16 @@ CrewAI/Trip_Planner/trip_planner.ipynb
 streamlit run CrewAI/Trip_Planner/streamlit_trip_advisor_app/my_app_2.py
 ```
 
+### Multi MCP Servers
+
+A LangGraph-based agent that connects to multiple **MCP servers** (Weather + Calculator) and dynamically selects tools based on user queries.
+
+Demonstrates:
+
+* Tool orchestration across multiple MCP servers
+* Real-time API interaction (weather data)
+* Hybrid reasoning + tool execution workflow
+
 ---
 
 # Technologies
