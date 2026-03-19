@@ -46,6 +46,18 @@ Demonstrates:
 
 ---
 
+## MCP Server on Cloud
+
+A setup where the MCP server runs as a standalone HTTP service and is accessed remotely by a LangGraph client.
+
+Demonstrates:
+
+* Running MCP server over HTTP (`/mcp` endpoint)
+* Remote tool access instead of local execution
+* End-to-end tool calling through API-based architecture
+
+---
+
 ## Agentic RAG System
 
 An advanced **Retrieval-Augmented Generation (RAG)** system with agent-based decision making.
