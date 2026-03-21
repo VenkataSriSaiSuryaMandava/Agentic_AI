@@ -98,29 +98,6 @@ Demonstrates:
 * Tool calling using custom function tools
 * Applying guardrails for controlled execution
 
-Key files:
-
-* `Single_Agent.py` – basic agent
-* `Multi_Agents_Manager.py` – multi-agent coordination
-* `Multi_Agent_Handoff.py` – agent handoff
-* `Multi_Sessions.py` – session handling
-* `Session_Demo.py` – session example
-* `Tools_Demo.py` – tool usage
-* `Demo_Function_Tool.py` – custom tools
-* `Guardrail.py` – safety rules
-* `Context.py` – context handling
-* `Demo.py` – entry point
-
-MCP components:
-
-```
-OpenAI_Agents_SDK/MCP_Demo/
-```
-
-* `Custom_MCP_Server.py` – custom MCP server
-* `MCP_Client.py` – single server client
-* `Multi_MCP_Client.py` – multi-server client
-
 ---
 
 ## Agentic RAG System

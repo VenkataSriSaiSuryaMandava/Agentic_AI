@@ -7,7 +7,7 @@ This project demonstrates how to build and manage AI agents using a Model Contex
 ```
 OpenAI_Agents_SDK/
 │
-├── MCP_Demo/
+├── MCP_Server/
 │   ├── .env
 │   ├── Custom_MCP_Server.py
 │   ├── MCP_Client.py
@@ -137,7 +137,7 @@ python Multi_Agents_Manager.py
 Run MCP client:
 
 ```bash
-python MCP_Demo/MCP_Client.py
+python MCP_Server/MCP_Client.py
 ```
 
 ## Notes
