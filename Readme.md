@@ -75,14 +75,6 @@ Demonstrates:
 * Connecting to remote MCP servers over HTTP
 * Streaming responses using Agno agents
 
-Files included:
-
-* `Single_MCP_Server.py` – basic MCP integration
-* `Multiple_MCP_Server.py` – multiple MCP servers
-* `Multiple_MCP_Server_Custom.py` – custom + default MCP tools
-* `Custom_MCP_Server.py` – custom math MCP server
-* `MCP_Server_on_Cloud.py` – remote MCP connection
-
 ---
 
 ## OpenAI Agents SDK (MCP Demo)
@@ -135,37 +127,9 @@ This repository also contains **CrewAI based multi-agent systems** for real-worl
 
 A multi-agent workflow that researches recent **AI industry news** and generates a summarized report.
 
-Location:
-
-```
-CrewAI/News_Summarization/new_summarization.ipynb
-```
-
----
-
 ## AI Trip Planner
 
 A multi-agent travel planning system that generates personalized travel itineraries.
-
-Agents involved:
-
-* **Location Expert** – transport, weather, stay
-* **Guide Expert** – attractions, food, experiences
-* **Planner Expert** – builds final itinerary
-
-Run options:
-
-**Notebook**
-
-```
-CrewAI/Trip_Planner/trip_planner.ipynb
-```
-
-**Streamlit App**
-
-```
-streamlit run CrewAI/Trip_Planner/streamlit_trip_advisor_app/my_app_2.py
-```
 
 ---
 
